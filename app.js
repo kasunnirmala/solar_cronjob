@@ -7,7 +7,7 @@ var ResponseModel = require('./model/response');
 
 var deviceData = {
     "nodeID": "ANANKE001",
-    "datetime": moment().tz("Asia/Colombo").format('YYYY-MM-DD hh:mm A').toString(),
+    "datetime": moment().tz("Asia/Colombo").format("YYYY-MM-DD HH:mm:ss").toString(),
     "value": "164",
     "color": "GREEN",
     "location": {
